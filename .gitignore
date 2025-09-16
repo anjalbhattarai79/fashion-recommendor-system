@@ -42,10 +42,6 @@ Thumbs.db
 *.npz
 *.npy
 
-# Uploaded or generated images
-content/images_compressed/
-uploads/
-media/
 
 # Environment/config files
 .env
