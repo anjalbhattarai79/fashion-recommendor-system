@@ -33,8 +33,8 @@ A content-based image retrieval system that recommends visually similar fashion 
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/your-username/fashion-recommender.git
-cd fashion-recommender
+git clone https://github.com/anjalbhattarai79/fashion-recommendor-system.git
+cd fashion-recommendor-system
 
 # 2. Create environment (optional but recommended)
 python -m venv venv
@@ -47,7 +47,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Run backend
-uvicorn app:app --reload
+uvicorn main:app --reload
 
 # 5. Run frontend
 streamlit run frontend.py
