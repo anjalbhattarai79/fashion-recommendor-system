@@ -47,7 +47,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Run backend
-uvicorn app:app --reload
+uvicorn main:app --reload
 
 # 5. Run frontend
 streamlit run frontend.py
