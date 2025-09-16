@@ -57,13 +57,14 @@ streamlit run frontend.py
 
 ## 🧑‍💻 Usage
 
-1. Put store images inside `content/images_compressed/`.
-2. Run preprocessing script to generate embeddings:
+1. Put images from YOUR STORE inside `content/images_compressed/`.
+2. make store_embeddings.npy and store_image_paths.npy for your OWN store
+3. Run preprocessing script to generate embeddings:
     ```bash
     python generate_embeddings.py
     ```
-3. Start backend and frontend as above.
-4. Upload a new image via Streamlit → system shows similar products.
+4. Start backend and frontend as above.
+5. Upload a new image via Streamlit → system shows similar products.
 
 ---
 
