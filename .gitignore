@@ -40,7 +40,6 @@ Thumbs.db
 *.pt
 *.pb
 *.npz
-*.npy
 
 
 # Environment/config files
